@@ -6,6 +6,10 @@ def encode_password(choice):
     choice = "".join(temp2)
     return choice
 
+def decode(choice):
+    pass
+    # Here is my decode function!
+
 
 def main():
     while True:
@@ -16,8 +20,7 @@ def main():
         print("1 Encode")
         print("2. Decode")
         print("3. Quit")
-        user = input("Please enter an option: ")
-        user = int(user)
+        user = int(input("Please enter an option: "))
         if user == 1:
             input1 = input("Please enter your password to encode: ")
             encode = encode_password(input1)

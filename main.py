@@ -4,6 +4,7 @@ def encode_password(choice):
     temp = [int(i) for i in choice]
     temp2 = [str(i+3) for i in temp]
     choice = "".join(temp2)
+
     return choice
 
 def decode(choice):
